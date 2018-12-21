@@ -1,6 +1,7 @@
 # Learning distributed systems checkin history
 
-Day 1: 2018/12/20
+Day 1: 2018/12/20 . 
+Day 2: 2018/12/21
 
 Youtube: [Distributed Systems in One Lesson by Tim Berglund](https://www.youtube.com/watch?v=Y6Ev8GIlbxc)
 
@@ -21,6 +22,17 @@ Youtube: [Distributed Systems in One Lesson by Tim Berglund](https://www.youtube
     - Consistency: R + W > N
     - CAP theorem
   - Distributed Computation
-    - MapReduce
-    - 
+    - MapReduce: Map, Shuffle, Reduce
+    - Hadoop: MapReduce, Job management, HDFS
+    - Spark: Scatter/gather, RDDs & DataSets, transform/action, Storage agnostic
+    - Kafka: Real-time analysis, Streams only, No cluster required
+    - Lambda architecture
+  - Messaging
+    - loosely coupling subsystems
+    - consumed by subscribers
+    - created by one or more producers
+    - Organized into topics
+    - Processed by brokers
+    
+    
     
